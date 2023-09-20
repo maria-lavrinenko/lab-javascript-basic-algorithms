@@ -3,7 +3,7 @@
 let hacker1 = "Alexandre";
 console.log(`The driver's name is ${hacker1}`);
 
-let hacker2;
+let hacker2 = "Maria";
 console.log(`The navigator's name is ${hacker2}`);
 
 // Iteration 2: Conditionals
@@ -27,9 +27,15 @@ if (hacker1.length > hacker2.length) {
 // Iteration 3: Loops
 // test
 
-const capitalName = "";
-for (let i = o; i < hacker1.length; i++) {
-  capitalName += hacker1.toUpperCase[i] + " ";
+let capitalName = "";
+for (let i = 0; i < hacker1.length; i++) {
+  capitalName += hacker1[i] + " ";
+}
+console.log(capitalName.toUpperCase());
+
+let capitalName2 = "";
+for (let i = hacker1.length - 1; i > -1; i--) {
+  capitalName2 += hacker1[i];
 }
 
-console.log(capitalName);
+console.log(capitalName2);
