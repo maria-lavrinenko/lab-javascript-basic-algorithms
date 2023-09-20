@@ -1,6 +1,6 @@
 // Iteration 1: Names and Input
 
-let hacker1;
+let hacker1 = "Alexandre";
 console.log(`The driver's name is ${hacker1}`);
 
 let hacker2;
@@ -25,3 +25,11 @@ if (hacker1.length > hacker2.length) {
 }
 
 // Iteration 3: Loops
+// test
+
+const capitalName = "";
+for (let i = o; i < hacker1.length; i++) {
+  capitalName += hacker1.toUpperCase[i] + " ";
+}
+
+console.log(capitalName);
